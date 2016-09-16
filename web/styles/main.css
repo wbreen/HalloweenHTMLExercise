@@ -1,0 +1,30 @@
+html{
+    font-family: "Berlin Sans", "Century Gothic", sans-serif;
+}
+h1{
+    font-size: 175%;
+}
+h2::first-letter{
+    font-size: 250%;
+}
+h3{
+    
+}
+h4{
+    
+}
+header{
+    text-indent: 30px;
+}
+footer{
+    
+}
+a{
+    
+}
+.floatImage{
+    float: left;
+}
+.makeOrange{
+    color:  orange;
+}
