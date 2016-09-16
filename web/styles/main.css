@@ -17,14 +17,25 @@ header{
     text-indent: 30px;
 }
 footer{
-    
+    font-size: 50%;
+    text-align: center;
 }
 a{
-    
+    color: orange;
+}
+a:hover{
+    color: green;
+}
+a:focus{
+    color: green;
 }
 .floatImage{
     float: left;
 }
 .makeOrange{
     color:  orange;
+}
+.changeStyle{
+    text-shadow: 2px 2px black;
+    font-style: italic;
 }
