@@ -5,6 +5,7 @@ html{
 h1{
     font-size: 175%;
     padding-top: 0;
+    margin: 10px 0;
 }
 h2::first-letter{
     font-size: 250%;
@@ -29,6 +30,8 @@ header{
     background: orange;
     background: linear-gradient(45deg, white, orange, darkorange, black);
     height: 100px;
+    padding-top: 5px;
+    padding-bottom: 10px;
 }
 footer{
     font-size: 50%;
@@ -38,7 +41,62 @@ footer{
     background: orange;
     background: linear-gradient(45deg, black, darkorange, orange, white);
     clear: both; /* this clears the floats */
+    padding-bottom: 1px;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+nav li{
+    float: left;
+}
+nav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 40px;
+    text-decoration: none;
+}
+nav li a:hover{
+    color: white;
+    background-color: gray;
+}
+.active{
+    color: orange;
+}
+aside{
+    float: left;
+    width: 160px;
+}
+aside ul{
+    list-style-type: none;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 7px;
+    /*background-color: orange;*/
     
+}
+aside li{
+    margin: 5px;
+    border: 3px solid black;
+    
+}
+aside li a{
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 2px 20px;
+    text-decoration: none;
+    background-color: orange;
+    border: 2px;
+}
+article{
+    float: right;
+    padding-left: 10px;
+    width: 630px;
 }
 a{
     color: orange;
@@ -50,6 +108,7 @@ a:focus{
     color: green;
 }
 .floatImage{
+    margin: 10px 0 0 10px;
     float: left;
 }
 .makeOrange{
@@ -58,12 +117,4 @@ a:focus{
 .changeStyle{
     text-shadow: 2px 2px black;
     font-style: italic;
-}
-nav{
-    float: left;
-    width: 160px;
-}
-article{
-    float: right;
-    width: 640px;
 }
