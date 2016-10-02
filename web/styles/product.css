@@ -69,7 +69,7 @@ nav li a:hover{
 }
 #leftSidebar{
     float: left;
-    width: 160px;
+    width: 20%;
 }
 #leftSidebar ul{
     list-style-type: none;
