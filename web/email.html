@@ -1,53 +1,63 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<head>
-	<meta charset="utf-8" />
-	<title>Email</title>
-        <link rel="stylesheet" href="styles/email.css">
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <title>Email</title>
+    <link rel="stylesheet" href="styles/email.css">
+  </head>
 
-<body>
-  <header>
-    <img src="../../images/pumpkin.gif" alt="pumpkin" class="floatImage">
-    <h1>The Halloween Store</h1>
-    <h3>For the little Goblin in all of us!</h3>
-  </header>
+  <body>
+    <header>
+      <a href="index.html"><img src="images/pumpkin.gif" alt="pumpkin" class="floatImage"></a>
+      <h1>The Halloween Store</h1>
+      <h3>For the little Goblin in all of us!</h3>
+    </header>
     <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="slides/products/index.html">Product List</a></li>
-            <li><a href="personal">Personal</a></li>
-            <li><a href="decorating_Ideas">Decorating Ideas</a></li>
-            <li><a class="active" href="join_Email">Join Email</a></li>
-        </ul>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="slides/products/index.html">Product List</a></li>
+        <li><a href="personal">Personal</a></li>
+        <li><a href="decorating_Ideas">Decorating Ideas</a></li>
+        <li><a class="active" href="email.html">Join Email</a></li>
+      </ul>
     </nav>
-  <main>
+    <main>
       <aside id="leftSidebar">
-          <ul>
-             <li><a href="products/props">Props</a></li>
-             <li><a href="products/costumes">Costumes</a></li>
-             <li><a href="products/special_effects">Special Effects</a></li>
-             <li><a href="products/masks">Masks</a></li>
-          </ul>
+        <ul>
+          <li><a href="products/props">Props</a></li>
+          <li><a href="products/costumes">Costumes</a></li>
+          <li><a href="products/special_effects">Special Effects</a></li>
+          <li><a href="products/masks">Masks</a></li>
+        </ul>
       </aside>
-    <form id="emailList" name="emailList" method="get" action="">
-        <fieldset id="emailInfo">
-            <legend><strong>Please Enter the Following Information</strong></legend>
-            <p>
-                <label for="firstName">First Name: </label>
-                <input name="firstName" type="text" id="firstName" tabindex="100" placeholder="First name" autofocus required title="Your first name">
-            </p>
-            <p>
-                <label for="lastName">Last Name:</label>
-                <input name="lastName" type="text" id="lastName" tabindex="110" placeholder="Last name" required title="Your last name">
-            </p>
-        </fieldset>
-        
-    </form>
-  </main>
-  <footer>
-    <p>&copy; William Breen 2016</p>
-  </footer>
-</body>
+      <section>
+        <h2>Please enter the following information</h2>
+        <form id="emailList" name="emailList" method="get" action="subscribe.html">
+          <p>
+            <label for="firstName">First Name: </label>
+            <input name="firstName" type="text" id="firstName" tabindex="100" placeholder="First name" autofocus required title="Your first name">
+          </p>
+          <p>
+            <label for="lastName">Last Name:</label>
+            <input name="lastName" type="text" id="lastName" tabindex="110" placeholder="Last name" required title="Your last name">
+          </p>
+          <p>
+            <label for="email">Email: </label>
+            <input name="email" type="email" id="email" tabindex="120" placeholder="example@example.com" required title="Your email address">
+          </p>
+          <p>
+            <label for="zipCode">Zip Code: </label>
+            <input name="zipCode" type="text" pattern="^[0-9]{5}$" id="zipCode" tabindex="130" placeholder="12345" title="Please enter your 5 digit zip code">
+          </p>
+          <p>
+            <input type="submit" name="submitButton" id="subscribe" value="Subscribe" tabindex="140">
+          </p>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; William Breen 2016</p>
+    </footer>
+  </body>
 </html>

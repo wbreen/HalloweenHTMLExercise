@@ -93,21 +93,20 @@ nav li a:hover{
     background-color: orange;
     border: 2px;
 }
-table{
-    width: 60%;
-}
+table{ width: 60%;}
 table, th, td{
     border: 0;
     border-collapse: collapse;
     text-align: left;
 }
+caption{
+    font-size: 125%;
+}
 th{
     padding-top: 0;
     width: 30%;
 }
-td{
-    width: 40%;
-}
+td{ width: 40%;}
 td:last-of-type{
     text-align: right;
     background-color: #F5DEB3;
@@ -119,22 +118,16 @@ td:last-of-type{
     background-color: #F5DEB3;
 }
 
-a{
-    color: black;
-}
-a:hover{
-    color: orange;
-}
-a:focus{
-    color: orange;
-}
+a{ color: black;}
+a:hover{ color: orange;}
+a:focus{ color: orange;}
+
 .floatImage{
     margin: 10px 0 0 10px;
     float: left;
 }
-.makeOrange{
-    color:  orange;
-}
+.makeOrange{ color: orange;}
+
 .changeStyle{
     text-shadow: 2px 2px black;
     font-style: italic;

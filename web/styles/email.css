@@ -47,9 +47,8 @@ nav ul{
     overflow: hidden;
     background-color: black;
 }
-nav li{
-    float: left;
-}
+nav li{float: left;}
+
 nav li a{
     display: block;
     color: white;
@@ -61,12 +60,11 @@ nav li a:hover{
     color: white;
     background-color: gray;
 }
-.active{
-    color: orange;
-}
+.active{color: orange;}
+
 #leftSidebar{
     float: left;
-    width: 160px;
+    width: 20%;
 }
 #leftSidebar ul{
     list-style-type: none;
@@ -90,27 +88,45 @@ nav li a:hover{
     background-color: orange;
     border: 2px;
 }
-form{
-    float: top;
-    width: auto;
+section{
+    float: right;
+    width: 80%;
+}
+section h2{ 
+    margin-top: 5px;
     padding-left: 10px;
 }
-a{
-    color: orange;
+form{
+    width: 95%;
+    padding-left: 0;
 }
-a:hover{
-    color: green;
+form p{
+    margin: 5px;
 }
-a:focus{
-    color: green;
+form label{
+    float: left;
+    text-align: right;
+    width: 15%;
 }
+form input{
+   margin-left: 5%; 
+}
+#subscribe{
+    background-color: orange;
+    border: 1px;
+    width: 15%;
+    margin-left: 20%;
+}
+a{color: orange;}
+a:hover{color: green;}
+a:focus{color: green;}
+
 .floatImage{
     margin: 10px 0 0 10px;
     float: left;
 }
-.makeOrange{
-    color:  orange;
-}
+.makeOrange{color:  orange;}
+
 .changeStyle{
     text-shadow: 2px 2px black;
     font-style: italic;
