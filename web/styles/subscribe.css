@@ -1,0 +1,110 @@
+html{
+    font-family: "Berlin Sans", "Century Gothic", sans-serif;
+    background-image: url(../images/bats.gif);
+}
+h1{
+    font-size: 175%;
+    padding-top: 0;
+    margin: 10px 0;
+}
+body{
+    width: 800px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px; /* allows the header/footer backgrounds to extend to sides*/
+    padding-top: 0px;
+    background-color: white;
+    box-shadow: 0px 0px 10px #000;
+    top: 0px;
+}
+header{
+    text-indent: 30px;
+    border-bottom-style: solid;
+    border-width: 2px;
+    background: orange;
+    background: linear-gradient(45deg, white, orange, darkorange, black);
+    height: 100px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+footer{
+    font-size: 50%;
+    text-align: center;
+    border-top-style: solid;
+    border-width: 1px;
+    background: orange;
+    background: linear-gradient(45deg, black, darkorange, orange, white);
+    clear: both; /* this clears the floats */
+    padding-bottom: 1px;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+nav li{float: left;}
+
+nav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 40px;
+    text-decoration: none;
+}
+nav li a:hover{
+    color: white;
+    background-color: gray;
+}
+.active{color: orange;}
+
+#leftSidebar{
+    float: left;
+    width: 20%;
+}
+#leftSidebar ul{
+    list-style-type: none;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 7px;
+    /*background-color: orange;*/
+    
+}
+#leftSidebar li{
+    margin: 5px;
+    border: 3px solid black;
+    
+}
+#leftSidebar li a{
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 2px 20px;
+    text-decoration: none;
+    background-color: orange;
+    border: 2px;
+}
+section{
+    float: right;
+    width: 80%;
+    padding-left: 0;
+    margin-top: 10px;
+}
+a{color: orange;}
+a:hover{color: green;}
+a:focus{color: green;}
+
+.floatImage{
+    margin: 10px 0 0 10px;
+    float: left;
+}
+.makeOrange{color:  orange;}
+
+.changeStyle{
+    text-shadow: 2px 2px black;
+    font-style: italic;
+}
