@@ -110,6 +110,7 @@ form label{
 }
 form input{
    margin-left: 5%; 
+   width: 60%;
 }
 #subscribe{
     background-color: orange;
